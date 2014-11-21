@@ -109,20 +109,20 @@ p {
 }
 
 /* RESPONSIVE */
-@media (min-width: 1230px) {...}
+/*@media (min-width: 1230px) {...}*/
 
-@media (min-width: 1022px) {...}
+/*@media (min-width: 1022px) {...}*/
 
-@media (max-width: 1021px) {...}
+/*@media (max-width: 1021px) {...}*/
 
-@media (min-width: 798px) {...}
+/*@media (min-width: 798px) {...}*/
 
-@media (max-width: 797px) {...}
+/*@media (max-width: 797px) {...}*/
 
-@media (max-width: 598px) {...}
+/*@media (max-width: 598px) {...}*/
 
-@media (max-width: 510px) {...}
+/*@media (max-width: 510px) {...}*/
 
-@media (min-width: 798px) and (max-width: 1021px) {...}
+/*@media (min-width: 798px) and (max-width: 1021px) {...}*/
 
-@media (min-width: 1022px) and (max-width: 1229px) {...}
+/*@media (min-width: 1022px) and (max-width: 1229px) {...}*/
