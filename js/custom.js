@@ -76,6 +76,8 @@ $(document).ready(function () {
         validateText: ["name", "message"],
         validateEmail: ["email"],
         validateSpam: true,
+
+
         captchaTheme: 'greyscale' // default, mini, dark, mini-dark, light, mini-light, greyscale, mini-greyscale
     });
 
