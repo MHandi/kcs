@@ -30,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.8187404" vertical-offset="6382" max-vertical-offset="8340">
-              <caret line="467" column="96" selection-start-line="467" selection-start-column="96" selection-end-line="467" selection-end-column="96" />
+              <caret line="467" column="77" selection-start-line="467" selection-start-column="77" selection-end-line="467" selection-end-column="77" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -444,7 +444,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8187404" vertical-offset="6382" max-vertical-offset="8340">
-          <caret line="467" column="96" selection-start-line="467" selection-start-column="96" selection-end-line="467" selection-end-column="96" />
+          <caret line="467" column="77" selection-start-line="467" selection-start-column="77" selection-end-line="467" selection-end-column="77" />
           <folding>
             <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
