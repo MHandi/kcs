@@ -4,6 +4,57 @@
 
 $(document).ready(function () {
 
+    var language = window.navigator.userLanguage || window.navigator.language;
+    //alert(language); //works IE/SAFARI/CHROME/FF
+
+    //$(".single_1").fancybox({
+    //    openEffect	: 'elastic',
+    //    closeEffect	: 'elastic',
+    //    speedOut   : 200,   // duration of fadeOut animation
+    //    locked     : true,
+    //
+    //    helpers : {
+    //        title : {
+    //            type : 'inside'
+    //        }
+    //    }
+    //});
+    $("#single_1").fancybox({
+        helpers: {
+            title : {
+                type : 'float'
+            }
+        }
+    });
+
+    $("#single_2").fancybox({
+        openEffect	: 'elastic',
+        closeEffect	: 'elastic',
+
+        helpers : {
+            title : {
+                type : 'inside'
+            }
+        }
+    });
+
+    $("#single_3").fancybox({
+        openEffect : 'none',
+        closeEffect	: 'none',
+        helpers : {
+            title : {
+                type : 'outside'
+            }
+        }
+    });
+
+    $("#single_4").fancybox({
+        helpers : {
+            title : {
+                type : 'over'
+            }
+        }
+    });
     /////////////////////////////////////////////////////////////////
     // BACKSTRETCH SLIDER (UNCOMMENT TO USE)
     /////////////////////////////////////////////////////////////////
@@ -38,6 +89,10 @@ $(document).ready(function () {
     //if ($('body#gallery').is('*')) { // Uncomment to run script on specific page only
     if (jQuery.browser.mobile) {
         var myPhotoSwipe = $(".fancybox").photoSwipe({enableMouseWheel: false, enableKeyboard: false});
+
+    //    hidden the fancy box
+
+        //$(".overlay").fancybox();
     }
     else {
         // Single Image
