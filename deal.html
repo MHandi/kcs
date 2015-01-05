@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>KCS | Welcome</title>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <!--<link rel="shortcut icon" type="image/x-icon" href="favicon.png"/>-->
     <link href="fonts/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/bootstrap-3.1.1.min.css" rel="stylesheet">
     <link href="css/lollies.min.css" rel="stylesheet">
@@ -58,7 +58,7 @@
 
                     <div class="navbar-collapse collapse minijiankatong">
                         <ul class="nav navbar-nav nav-justified h2">
-                            <li><a href="#">首页</a>
+                            <li><a href="index.html">首页</a>
                             </li>
                             <li><a href="special.html">本店主打</a>
                             </li>
@@ -84,8 +84,6 @@
                             </li>
                             <li><a href="contact.html">联系我们</a>
                             </li>
-                            <li><a href="#">English</a>
-                            </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">关于<b class="caret"></b></a>
                                 <ul class="dropdown-menu">
@@ -110,124 +108,80 @@
 </header>
 
 
-<!--图片滑动区   菜色预览-->
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-12">
-            <div id="slider" class="slider-col">
-                <div class="camera_slider shadow-patent">
-                    <!--add some imges-->
-                    <div data-src="src/02-opt/02-img1.jpg"></div>
-                    <div data-src="src/02-opt/02-img2_opt.jpg"></div>
-                    <div data-src="src/02-opt/02-img3_opt.jpg"></div>
-                    <div data-src="src/02-opt/02-img5_opt.jpg"></div>
-                    <div data-src="src/02-opt/02-img6_opt.jpg"></div>
-                    <div data-src="src/02-opt/02-img7_opt.jpg"></div>
-                    <div data-src="src/02-opt/02-img8_opt.jpg"></div>
-                    <div data-src="src/02-opt/02-img9_opt.jpg"></div>
-                    <div data-src="src/02-opt/02-img10_opt.jpg"></div>
-                    <div data-src="src/02-opt/02-img0_opt.jpg"></div>
-                    <div data-src="src/02-opt/02-img12_opt.jpg"></div>
-                    <div data-src="src/02-opt/02-img13_opt.jpg"></div>
-                    <div data-src="src/02-opt/02-img14_opt.jpg"></div>
-                    <div data-src="src/02-opt/02-img15_opt.jpg"></div>
-                </div>
-            </div>
-            <div class="clear"></div>
-        </div>
-    </div>
-</div>
 
-<!--三个模块-->
-<div class="container-fluid">
-    <div class="top-grids">
-        <div class="row wrap">
-            <div class="col-sm-12">
+<!--活动及优惠-->
+<div class="gallery-block" id="deal">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!--section  header-->
+                <div class="section-header1">
 
-                <div class="top-grid">
-                    <a href="special.html"><img src="./src/other/icon1.png" title="icon-name"alt="special"></a>
-
-                    <h3>我们的主打</h3>
-
-                    <p>为华人留学生提供最正宗的烧烤</p>
-                    <br/><a class="cnt-btn" href="special.html">主打 &nbsp 菜色</a>
-                </div>
-
-                <div class="top-grid">
-
-                    <a href="deal.html"><img src="./src/other/icon3.png" title="icon-name"></a>
-                    <br/>
-
-                    <h3 style="font-size: large">我们的活动</h3>
-
-                    <p>自己吃的好吃放心才能给顾客奉上！！！</p>
-
-                    <br/>
-
-                    <a class="cnt-btn" href="deal.html">优惠及活动</a>
+                    <h2 class="minijiankatong">活动及优惠</h2>
 
                 </div>
-
-                <div class="top-grid last-topgrid">
-                    <a href="menu.html"><img src="./src/other/icon2.png" title="icon-name"></a>
-
-                    <h3>我们的菜单</h3>
-
-                    <p>搭配自己的组合，体验不同的感觉！</p>
-                    <br/>
-                    <a class="cnt-btn" href="menu.html">菜&nbsp &nbsp &nbsp &nbsp 单</a>
-                </div>
-
-                <div class="clear"></div>
             </div>
         </div>
-    </div>
-</div>
+        <div class="row ">
+            <div class="col-md-3 col-sm-6">
+                <div class="shadow-patent">
+                    <a class="fancybox" rel="gallery_group" href="img/gallery-img.gif"><img
+                            src="img/gallery-img.gif"
+                            alt=""/></a>
+                </div>
+                <div class="btn-block btn-padding">
+                    <!--src/voucher/wechat.jpg-->
+                    <a href="img/psbg.png" download="voucher1" target="_blank">
+                        <input type="button" id="btnVoucher1" class="button1 btn" value="请点击下载优惠券">
 
-<!--视频+文字介绍-->
-<div class="mid-grid">
-    <div class="content-block section-background2" id="hello">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <!--section  header-->
-                    <!--<div class="section-header">-->
-
-                    <!--<h2 class="minijiankatong">烤串烧介绍</h2>-->
-
-                    <!--</div>-->
-                    <div class="mid-grid">
-                        <div class="wrap">
-                            <h1>烤串烧介绍</h1>
-
-                            <h2>伯明翰烤串店是伯明翰及周边地区最正宗的烤串店，口感正宗，肉质软绵，口味不膻不腻，吃过之后齿颊留香，让您在异国他乡找回家的感觉。</h2>
-
-                            <p>本着为广大华人留学生提供最正宗的烧烤，本着凭良心做餐饮的精神，全心全意的为您打造国内口味的炭火烤串，力求为您提供您正宗的在家乡大街小巷熟知的炭火烤串，而非油炸、气烤或电烤。
-                                本店所用皆为高品质新鲜好部位的肉类，在不使用任何化学添加剂及色素的前提下用中国传统方法精心制作以达到肉质松软鲜嫩，色香味俱全。各类蔬菜力求新鲜，全部食材皆由正规渠道新鲜采购，拒绝使用冷冻原材料。
-                                为保证食物的卫生，本店所用竹签均为一次性，绝不重复使用。所用木炭不同于市场上常见的普通木炭，而是果木炭，有淡淡果香。 </p>
-
-                            <p>
-                                本店同时为广大华人留学生提供自选麻辣烫，我的麻辣烫我做主，喜欢什么食材吃什么。绝顶秘制骨汤（陈汤），配上独家汤底料经12小时精心熬制，不加任何香精及化学添加剂。价格公道，食材新鲜，麻辣够劲、够香。
-                                一分钱，一分货，我们从不在食材上降低成本来换取利润，保证价格和食品品质成正比。 本店也是英国卫生部抽检评定的 <strong>五星级</strong>
-                                卫生餐厅。让您吃着舒心又放心。 </p>
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3">
-                    <!-- 16:9 aspect ratio -->
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="img/demo.mp4" allowfullscreen></iframe>
-                    </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="shadow-patent">
+                    <a class="fancybox" rel="gallery_group" href="img/gallery-img.gif"><img
+                            src="img/gallery-img.gif"
+                            alt=""/></a>
+                </div>
+                <div class="btn-block btn-padding">
+                    <!--src/voucher/wechat.jpg-->
+                    <a href="img/psbg.png" download="voucher1" target="_blank">
+                        <input type="button" id="btnVoucher2" class="button1 btn" value="请点击下载优惠券">
 
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="shadow-patent">
+                    <a class="fancybox" rel="gallery_group" href="img/gallery-img.gif"><img
+                            src="img/gallery-img.gif"
+                            alt=""/></a>
+                </div>
+                <div class="btn-block btn-padding">
+                    <!--src/voucher/wechat.jpg-->
+                    <a href="img/psbg.png" download="voucher1" target="_blank">
+                        <input type="button" id="btnVoucher3" class="button1 btn" value="请点击下载优惠券">
 
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="shadow-patent">
+                    <a class="fancybox" rel="gallery_group" href="img/gallery-img.gif"><img
+                            src="img/gallery-img.gif"
+                            alt=""/></a>
+                </div>
+                <div class="btn-block btn-padding">
+                    <!--src/voucher/wechat.jpg-->
+                    <a href="img/psbg.png" download="voucher1" target="_blank">
+                        <input type="button" id="btnVoucher4" class="button1 btn" value="请点击下载优惠券">
+
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!---->
 
 <!--contact info-->
 <div class="content-block" id='contact'>
@@ -312,37 +266,16 @@
                                 </tr>
 
                             </table>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        关注右边<span><strong>微信公众平台</strong></span>可收到各类优惠以及惊喜礼物
-                                    </p>
-                                </div>
-                            </div>
-
 
                         </div>
-                        <!--square img-->
-                        <div class="col-xs-5">
-                            <div class="img-responsive">
-                                <img src="src/squre_code/wechat.jpg" title="微信">
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
-        </div>
 
-
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <!--map-->
-            <div id="map"></div>
 
         </div>
     </div>
-</div>
 </div>
 
 
